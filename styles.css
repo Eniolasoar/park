@@ -23,9 +23,10 @@ h1{
 }
 .hero-text{
   
-  padding-left: 10%;
+margin:70px 0;
   padding-top: 10%;
   width: 450px;
+  margin-bottom:100px;
 }
 .heroParagraph{
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -43,11 +44,12 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #1B1464;
 }
 .orderbtn:hover{
   cursor: pointer;
-  background-color: #1B1464;
-  color: white;
+  
+  opacity:0.7;
 }
 
 .service-header{
@@ -56,6 +58,7 @@ h1{
 .service-header h2{
   font-size: 30px;
   color: #1B1464;
+  margin-bottom:20px;
 }
 .service-header p{
   font-family: Georgia, 'Times New Roman', Times, serif;
