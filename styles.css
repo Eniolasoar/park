@@ -5,9 +5,10 @@
   box-sizing: border-box;
 }
 .hero-section{
-  background-image: url("hero.png");
-  background-size: cover;
-  min-height:100vh;
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
 }
 h1{
   color: #ff0000;
@@ -22,8 +23,8 @@ h1{
 }
 .hero-text{
   
-  margin-left: 10%;
-  margin-top: 10%;
+  padding-left: 10%;
+  padding-top: 10%;
   width: 450px;
 }
 .heroParagraph{
@@ -72,7 +73,7 @@ h1{
   
  
   margin-bottom: 20px;
-  padding:20px;
+  padding:25px;
 }
 .service-box{
   display: flex;
